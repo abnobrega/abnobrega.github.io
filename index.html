@@ -1,38 +1,221 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Alexandre Bonturi Nóbrega</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Alexandre Bonturi - Portfolio</title>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 0 20px;
-      line-height: 1.6;
-      color: #333;
+    /* Basic reset */
+    * {
+      margin: 0; padding: 0; box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
-    h1 {
+    body {
+      background: #f4f6f8;
+      color: #333;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 2rem 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.25rem;
+      letter-spacing: 2px;
+    }
+    header p {
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: #aaa;
+    }
+    main {
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1.5rem;
+      flex-grow: 1;
+    }
+    section {
+      margin-bottom: 3rem;
+    }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      border-bottom: 3px solid #007acc;
+      padding-bottom: 0.3rem;
       color: #007acc;
     }
-    a {
+    /* About me */
+    #about p {
+      font-size: 1.15rem;
+      color: #444;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    /* Skills */
+    #skills ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      list-style: none;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    #skills li {
+      background: white;
+      padding: 0.8rem 1.5rem;
+      border-radius: 30px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+      font-weight: 600;
+      color: #007acc;
+      cursor: default;
+      transition: transform 0.3s ease;
+    }
+    #skills li:hover {
+      transform: scale(1.1);
+    }
+    /* Projects */
+    #projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(280px,1fr));
+      gap: 1.5rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .project-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+    .project-card h3 {
+      margin-bottom: 0.75rem;
+      color: #007acc;
+    }
+    .project-card p {
+      flex-grow: 1;
+      color: #555;
+      font-size: 1rem;
+      margin-bottom: 1rem;
+    }
+    .project-card a {
+      align-self: flex-start;
+      background: #007acc;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+    }
+    .project-card a:hover {
+      background: #005fa3;
+    }
+    /* Contact */
+    #contact {
+      text-align: center;
+      font-size: 1.1rem;
+      color: #444;
+    }
+    #contact a {
       color: #007acc;
       text-decoration: none;
+      margin: 0 0.8rem;
+      font-weight: 600;
+      transition: color 0.3s ease;
     }
-    a:hover {
-      text-decoration: underline;
+    #contact a:hover {
+      color: #005fa3;
+    }
+    /* Footer */
+    footer {
+      background: #222;
+      color: #aaa;
+      padding: 1rem;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: auto;
+    }
+    /* Responsive */
+    @media(max-width:600px) {
+      header h1 { font-size: 2rem; }
+      h2 { font-size: 1.5rem; }
+      #skills ul { flex-direction: column; gap: 0.6rem; }
     }
   </style>
 </head>
 <body>
-  <h1>Olá! Eu sou Alexandre Bonturi Nóbrega 👋</h1>
-  <h2>Backend & Web3 Developer</h2>
-  <p>Bem-vindo ao meu portfólio pessoal hospedado com GitHub Pages.</p>
-  <p>
-    👉 Veja meus projetos no <a href="https://github.com/abnobrega" target="_blank">GitHub</a><br/>
-    👉 Conecte-se comigo no <a href="https://www.linkedin.com/in/alexandrebonturinobrega/" target="_blank">LinkedIn</a>
-  </p>
-  <p>🚀 Em breve, mais informações e projetos estarão aqui. Fique ligado!</p>
+  <header>
+    <h1>Alexandre Bonturi</h1>
+    <p>Software Engineer | Web3 Developer | Financial Mentor</p>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I am a passionate software developer focused on building efficient and scalable solutions. I have experience in Java, Node.js, Web3, and also offer financial mentoring to help people organize their finances and achieve their goals.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java</li>
+        <li>Node.js</li>
+        <li>Spring Boot</li>
+        <li>Angular</li>
+        <li>JavaScript</li>
+        <li>TypeScript</li>
+        <li>MongoDB</li>
+        <li>Web3 & Blockchain</li>
+        <li>Financial Mentoring</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      
+      <article class="project-card">
+        <h3>Help Desk Project</h3>
+        <p>Web application for technical ticket management with Java backend and Angular frontend.</p>
+        <a href="https://github.com/abnobrega/helpdesk" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Netflix Clone Project</h3>
+        <p>Movie catalog system with Node.js microservices and API Gateway.</p>
+        <a href="https://github.com/abnobrega/netflix-clone" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+      </article>
+
+      <article class="project-card">
+        <h3>Sobrando Dinheiro para Gerar Riqueza Course</h3>
+        <p>Complete financial education course for personal finance organization and wealth building.</p>
+        <a href="https://go.hotmart.com/O28103354B" target="_blank" rel="noopener noreferrer">View Course</a>
+      </article>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out via email or social media:</p>
+      <p>
+        <a href="mailto:alexandre@email.com">alexandre@email.com</a> |
+        <a href="https://linkedin.com/in/abnobrega" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+        <a href="https://github.com/abnobrega" target="_blank" rel="noopener noreferrer">GitHub</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Alexandre Bonturi. All rights reserved.</p>
+  </footer>
 </body>
 </html>
