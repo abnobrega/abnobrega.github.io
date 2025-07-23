@@ -1,249 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alexandre Bonturi - Portfolio</title>
-  <style>
-    * {
-      margin: 0; padding: 0; box-sizing: border-box;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    }
-    body {
-      background: #f4f6f8;
-      color: #333;
-      line-height: 1.6;
-      min-height: 100vh;
-      display: flex;
-      flex-direction: column;
-    }
-    header {
-      background: #222;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 2rem;
-      margin-bottom: 0.5rem;
-      letter-spacing: 1px;
-    }
-    header p {
-      font-size: 1rem;
-      font-weight: 300;
-      color: #aaa;
-    }
-    main {
-      max-width: 1000px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-      flex-grow: 1;
-    }
-    section {
-      margin-bottom: 3rem;
-    }
-    h2 {
-      font-size: 1.5rem;
-      margin-bottom: 1rem;
-      border-bottom: 3px solid #007acc;
-      padding-bottom: 0.3rem;
-      color: #007acc;
-    }
-    #about p {
-      font-size: 1rem;
-      color: #444;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    #skills ul {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 0.8rem;
-      list-style: none;
-      max-width: 700px;
-      margin: 0 auto;
-    }
-    #skills li {
-      background: white;
-      padding: 0.6rem 1rem;
-      border-radius: 30px;
-      box-shadow: 0 3px 8px rgba(0,0,0,0.1);
-      font-weight: 600;
-      color: #007acc;
-      cursor: default;
-      transition: transform 0.3s ease;
-      font-size: 0.9rem;
-    }
-    #skills li:hover {
-      transform: scale(1.05);
-    }
-    #projects {
-      display: grid;
-      grid-template-columns: 1fr;
-      gap: 1rem;
-      max-width: 1000px;
-      margin: 0 auto;
-    }
-    .project-card {
-      background: white;
-      border-radius: 10px;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-      padding: 1.5rem;
-      display: flex;
-      flex-direction: column;
-    }
-    .project-card h3 {
-      margin-bottom: 0.75rem;
-      color: #007acc;
-      font-size: 1.2rem;
-    }
-    .project-card p {
-      flex-grow: 1;
-      color: #555;
-      font-size: 1rem;
-      margin-bottom: 1rem;
-    }
-    .project-card a {
-      align-self: flex-start;
-      background: #007acc;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 5px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: background-color 0.3s ease;
-      font-size: 0.9rem;
-    }
-    .project-card a:hover {
-      background: #005fa3;
-    }
-    #contact {
-      text-align: center;
-      font-size: 1rem;
-      color: #444;
-    }
-    #contact a {
-      color: #007acc;
-      text-decoration: none;
-      margin: 0 0.5rem;
-      font-weight: 600;
-      display: inline-block;
-    }
-    #contact a:hover {
-      color: #005fa3;
-    }
-    footer {
-      background: #222;
-      color: #aaa;
-      padding: 1rem;
-      text-align: center;
-      font-size: 0.8rem;
-      margin-top: auto;
-    }
-
-    @media(min-width: 700px) {
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Alexandre Bonturi - Portfolio</title>
+    <style>
+      * {
+        margin: 0; padding: 0; box-sizing: border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      body {
+        background: #f4f6f8;
+        color: #333;
+        line-height: 1.6;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+      header {
+        background: #222;
+        color: white;
+        padding: 2rem 1rem;
+        text-align: center;
+      }
       header h1 {
-        font-size: 2.5rem;
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        letter-spacing: 1px;
+      }
+      header p {
+        font-size: 1rem;
+        font-weight: 300;
+        color: #aaa;
+      }
+      main {
+        max-width: 1000px;
+        margin: 2rem auto;
+        padding: 0 1rem;
+        flex-grow: 1;
+      }
+      section {
+        margin-bottom: 3rem;
       }
       h2 {
-        font-size: 2rem;
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 3px solid #007acc;
+        padding-bottom: 0.3rem;
+        color: #007acc;
       }
-      #projects {
-        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-        gap: 1.5rem;
+      #about p {
+        font-size: 1rem;
+        color: #444;
+        max-width: 700px;
+        margin: 0 auto;
+      }
+      #skills ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+        list-style: none;
+        max-width: 700px;
+        margin: 0 auto;
       }
       #skills li {
-        font-size: 1rem;
-        padding: 0.8rem 1.5rem;
+        background: white;
+        padding: 0.6rem 1rem;
+        border-radius: 30px;
+        box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        font-weight: 600;
+        color: #007acc;
+        cursor: default;
+        transition: transform 0.3s ease;
+        font-size: 0.9rem;
+      }
+      #skills li:hover {
+        transform: scale(1.05);
+      }
+      #projects {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        max-width: 1000px;
+        margin: 0 auto;
+      }
+      .project-card {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        padding: 1.5rem;
+        display: flex;
+        flex-direction: column;
       }
       .project-card h3 {
-        font-size: 1.5rem;
+        margin-bottom: 0.75rem;
+        color: #007acc;
+        font-size: 1.2rem;
       }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <h1>Alexandre Bonturi Nóbrega</h1>
-    <p>Software Engineer | Web3 Developer | Mathematician | Financial Mentor</p>
-  </header>
+      .project-card p {
+        flex-grow: 1;
+        color: #555;
+        font-size: 1rem;
+        margin-bottom: 1rem;
+      }
+      .project-card a {
+        align-self: flex-start;
+        background: #007acc;
+        color: white;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background-color 0.3s ease;
+        font-size: 0.9rem;
+      }
+      .project-card a:hover {
+        background: #005fa3;
+      }
+      #contact {
+        text-align: center;
+        font-size: 1rem;
+        color: #444;
+      }
+      #contact h2 {
+        margin-top: 2rem; /* Espaço extra acima */
+      }      
+      #contact a {
+        color: #007acc;
+        text-decoration: none;
+        margin: 0 0.5rem;
+        font-weight: 600;
+        display: inline-block;
+      }
+      #contact a:hover {
+        color: #005fa3;
+      }
+      footer {
+        background: #222;
+        color: #aaa;
+        padding: 1rem;
+        text-align: center;
+        font-size: 0.8rem;
+        margin-top: auto;
+      }
 
-  <main>
-    <section id="about">
-      <h2>About Me</h2>
-      <p>With a background in mathematics, I bring a logical and analytical approach to problem-solving. I am always eager to learn new technologies and improve my skills.</p>   
-      <p>Currently, I am focused on Web3 technologies, including blockchain development and smart contracts, with a keen interest in Ethereum and Solana ecosystems.</p>    
-      <p>My goal is to create impactful software that enhances user experiences and drives innovation in the tech industry.</p>
-      <p>In addition to my technical skills, I am a financial mentor, helping individuals organize their finances and build wealth. I believe that financial education is crucial for personal and professional growth.</p>
-    </section>
+      @media(min-width: 700px) {
+        header h1 {
+          font-size: 2.5rem;
+        }
+        h2 {
+          font-size: 2rem;
+        }
+        #projects {
+          grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+          gap: 1.5rem;
+        }
+        #skills li {
+          font-size: 1rem;
+          padding: 0.8rem 1.5rem;
+        }
+        .project-card h3 {
+          font-size: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Alexandre Bonturi Nóbrega</h1>
+      <p>Software Engineer | Web3 Developer | Mathematician | Financial Mentor</p>
+    </header>
 
-    <section id="skills">
-      <h2>Skills</h2>
-      <ul>
-        <li>Blockchain</li>
-        <li>Smart Contracts</li>        
-        <li>Web3</li>                
-        <li>Ethereum</li>        
-        <li>Solidity</li>                
-        <li>Foundry</li>     
-        <li>Hardhat</li>                
-        <li>Viem</li>                        
-        <li>Solana</li>                        
-        <li>Rust</li>     
-        <li>Node.js</li>
-        <li>Express.js</li> 
-        <li>NestJS</li>   
-        <li>Java</li>
-        <li>Spring Boot</li>
-        <li>Microservices</li>               
-        <li>RESTful API</li> 
-        <li>React</li>
-        <li>JavaScript</li>
-        <li>TypeScript</li>
-        <li>HTML</li>
-        <li>CSS</li>     
-        <li>MySQL</li>     
-        <li>NoSQL</li>     
-      </ul>
-    </section>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>With a background in mathematics, I bring a logical and analytical approach to problem-solving. I am always eager to learn new technologies and improve my skills.</p>   
+        <p>Currently, I am focused on Web3 technologies, including blockchain development and smart contracts, with a keen interest in Ethereum and Solana ecosystems.</p>    
+        <p>My goal is to create impactful software that enhances user experiences and drives innovation in the tech industry.</p>
+        <p>In addition to my technical skills, I am a financial mentor, helping individuals organize their finances and build wealth. I believe that financial education is crucial for personal and professional growth.</p>
+      </section>
 
-    <section id="projects">
-      <h2>Projects</h2>
-      
-      <article class="project-card">
-        <h3>Cinema Microservices Architecture Project</h3>
-        <p>Cinema catalog system with Node.js microservices and API Gateway.</p>
-        <a href="https://github.com/abnobrega/cinema-microservices-architecture.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-      </article>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Blockchain</li>
+          <li>Smart Contracts</li>        
+          <li>Web3</li>                
+          <li>Ethereum</li>        
+          <li>Solidity</li>                
+          <li>Foundry</li>     
+          <li>Hardhat</li>                
+          <li>Viem</li>                        
+          <li>Solana</li>                        
+          <li>Rust</li>     
+          <li>Node.js</li>
+          <li>Express.js</li> 
+          <li>NestJS</li>   
+          <li>Java</li>
+          <li>Spring Boot</li>
+          <li>Microservices</li>               
+          <li>RESTful API</li> 
+          <li>React</li>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML</li>
+          <li>CSS</li>     
+          <li>MySQL</li>     
+          <li>NoSQL</li>     
+        </ul>
+      </section>
 
-      <article class="project-card">
-        <h3>Help Desk Project</h3>
-        <p>Web application for technical ticket management with Java backend and Angular frontend.</p>
-        <a href="https://github.com/abnobrega/helpdesk-backend.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
-      </article>      
+      <section id="projects">
+        <h2>Projects</h2>
+        
+        <article class="project-card">
+          <h3>Cinema Microservices Architecture Project</h3>
+          <p>Cinema catalog system with Node.js microservices and API Gateway.</p>
+          <a href="https://github.com/abnobrega/cinema-microservices-architecture.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>
 
-      <article class="project-card">
-        <h3>Sobrando Dinheiro para Gerar Riqueza Course</h3>
-        <p>Complete financial education course for personal finance organization and wealth building.</p>
-        <a href="https://go.hotmart.com/O28103354B" target="_blank" rel="noopener noreferrer">View Course</a>
-      </article>
-    </section>
+        <article class="project-card">
+          <h3>Help Desk Project</h3>
+          <p>Web application for technical ticket management with Java backend and Angular frontend.</p>
+          <a href="https://github.com/abnobrega/helpdesk-backend.git" target="_blank" rel="noopener noreferrer">View on GitHub</a>
+        </article>      
 
-    <section id="contact">
-      <h2>Contact</h2>
-      <p>Feel free to connect with me on LinkedIn or GitHub to discuss potential collaborations or opportunities.</p>
-      <p>Let's build something great together!</p>    
-      <p>
-        <a href="mailto:abonturi@gmail.com">Contact me</a> |
-        <a href="https://www.linkedin.com/in/alexandrebonturinobrega" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
-        <a href="https://github.com/abnobrega" target="_blank" rel="noopener noreferrer">GitHub</a>
-      </p>
-    </section>
-  </main>
+        <article class="project-card">
+          <h3>Sobrando Dinheiro para Gerar Riqueza Course</h3>
+          <p>Complete financial education course for personal finance organization and wealth building.</p>
+          <a href="https://go.hotmart.com/O28103354B" target="_blank" rel="noopener noreferrer">View Course</a>
+        </article>
+      </section>
 
-  <footer>
-    <p>© 2025 Alexandre Bonturi. All rights reserved.</p>
-  </footer>
-</body>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to connect with me on LinkedIn or GitHub to discuss potential collaborations or opportunities.</p>
+        <p>Let's build something great together!</p>    
+        <p>
+          <a href="mailto:abonturi@gmail.com">Contact me</a> |
+          <a href="https://www.linkedin.com/in/alexandrebonturinobrega" target="_blank" rel="noopener noreferrer">LinkedIn</a> |
+          <a href="https://github.com/abnobrega" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2025 Alexandre Bonturi. All rights reserved.</p>
+    </footer>
+  </body>
 </html>
