@@ -1,26 +1,24 @@
 # Alexandre Bonturi — Backend & Web3 Engineer
 
-👋 Hi! I’m Alexandre Bonturi, a backend and Web3 software engineer passionate about blockchain, smart contracts, and building secure, scalable systems.
+👋 Hi! I’m Alexandre Bonturi Nóbrega, a backend and Web3 software engineer passionate about blockchain, smart contract. With a strong foundation in mathematics, I’m focused on delivering secure, scalable solutions with a logical and analytical approach to problem-solving.
 
 ## 💡 About Me
-- Backend & Web3 Engineer with experience in Java, Node.js, Solidity, and Rust.
+- Backend & Web3 Software Engineer with experience in Java, Node.js, Solidity, and Rust.
 - Strong skills in microservices, APIs, and distributed architectures.
-- Active in the Ethereum and Solana ecosystems.
+- I am currently focused on Web3 technologies, specializing in blockchain and smart contract development, with hands-on experience across both the Ethereum and Solana ecosystems.
 - Financial mentor helping people build wealth through financial education.
 
 ## ⚙️ Skills
 **Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
-**Frontend:** React, HTML, CSS, JavaScript, TypeScript
 **Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
+**Frontend:** React, HTML, CSS, JavaScript, TypeScript
 **Databases:** Oracle, MySQL, NoSQL  
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
 - 🛠️ **Help Desk System** — [GitHub](https://github.com/abnobrega/helpdesk-backend)
-- 💰 **Sobrando Dinheiro Course** — [View Course](https://go.hotmart.com/O28103354B)
-## 💰 Sobrando Dinheiro para Gerar Riqueza
-
-I also help people organize their finances through my own financial education course:
+- 💰 **Sobrando Dinheiro para Gerar Riqueza Course** — [View Course](https://go.hotmart.com/O28103354B)
+Outside of tech, I am also a financial mentor, helping people organize their finances and build wealth through my own financial education course:
 👉 [Access the Course](https://go.hotmart.com/O28103354B)
 
 
