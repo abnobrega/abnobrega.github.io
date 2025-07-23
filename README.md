@@ -9,10 +9,10 @@
 - Financial mentor helping people build wealth through financial education.
 
 ## ⚙️ Skills
-**Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
-**Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
-**Frontend:** React, HTML, CSS, JavaScript, TypeScript
-**Databases:** Oracle, MySQL, NoSQL  
+- **Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
+- **Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
+- **Frontend:** React, HTML, CSS, JavaScript, TypeScript
+- **Databases:** Oracle, MySQL, NoSQL  
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
