@@ -9,15 +9,20 @@
 - Financial mentor helping people build wealth through financial education.
 
 ## ⚙️ Skills
-**Backend:** Java, Node.js, Spring Boot, Express, NestJS  
 **Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
-**Databases:** MySQL, NoSQL  
 **Frontend:** React, HTML, CSS, JavaScript, TypeScript
+**Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
+**Databases:** Oracle, MySQL, NoSQL  
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
 - 🛠️ **Help Desk System** — [GitHub](https://github.com/abnobrega/helpdesk-backend)
 - 💰 **Sobrando Dinheiro Course** — [View Course](https://go.hotmart.com/O28103354B)
+## 💰 Sobrando Dinheiro para Gerar Riqueza
+
+I also help people organize their finances through my own financial education course:
+👉 [Access the Course](https://go.hotmart.com/O28103354B)
+
 
 ## 📫 Contact
 [Email](mailto:abonturi@gmail.com) • [LinkedIn](https://www.linkedin.com/in/alexandrebonturinobrega) • [GitHub](https://github.com/abnobrega)
