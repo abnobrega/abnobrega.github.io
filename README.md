@@ -1,6 +1,7 @@
-# Alexandre Bonturi — Backend & Web3 Engineer
+# Alexandre Bonturi — Backend & Web3 Software Engineer
 
-👋 Hi! I’m Alexandre Bonturi Nóbrega, a backend and Web3 software engineer passionate about blockchain and smart contracts development. With a strong foundation in mathematics, I focus on delivering secure, scalable solutions through a logical and analytical approach to problem-solving.
+👋 Hi! I’m Alexandre Bonturi Nóbrega, a backend and Web3 software engineer passionate about blockchain and smart contracts development. With a strong foundation in mathematics, I focus on delivering secure, scalable solutions through a logical and analytical approach to problem-solving. I enjoy contributing to open-source projects and collaborating with the Web3 community. Let’s connect and build the future of decentralized tech together!
+
 
 ## 💡 About Me
 - Backend & Web3 Software Engineer with experience in Java, Node.js, Solidity, and Rust.

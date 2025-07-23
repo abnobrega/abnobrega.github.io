@@ -34,6 +34,25 @@
         font-weight: 300;
         color: #aaa;
       }
+      .hero-tagline {
+        margin: 1rem 0;
+        font-size: 1.1rem;
+        color: #aaa;
+      }
+      .cta-button {
+        display: inline-block;
+        background: #007acc;
+        color: white;
+        padding: 0.8rem 1.5rem;
+        border-radius: 30px;
+        text-decoration: none;
+        font-weight: 600;
+        transition: background 0.3s ease;
+        font-size: 1rem;
+      }
+      .cta-button:hover {
+        background: #005fa3;
+      }
       main {
         max-width: 1000px;
         margin: 2rem auto;
@@ -149,7 +168,6 @@
           gap: 1.5rem;
         }
       }
-      
       /* Responsividade detalhada */
       @media (max-width: 480px) {
         header h1 {
@@ -172,7 +190,6 @@
           padding: 0.4rem 0.8rem;
         }
       }
-
       @media (min-width: 481px) and (max-width: 768px) {
         header h1 {
           font-size: 2rem;
@@ -194,7 +211,6 @@
           padding: 0.5rem 1rem;
         }
       }
-
       @media (min-width: 769px) {
         header h1 {
           font-size: 2.5rem;
@@ -216,13 +232,14 @@
           padding: 0.5rem 1rem;
         }
       }
-
     </style>
   </head>
   <body>
     <header>
       <h1>Alexandre Bonturi Nóbrega</h1>
-      <p>Backend & Web3 Software Engineer | Smart Contract Developer</p>
+      <p>Backend & Web3 Software Engineer | Blockchain & Smart Contract Developer</p>
+      <p class="hero-tagline">Bringing secure, scalable blockchain solutions to life.</p>
+      <a href="mailto:abonturi@gmail.com" class="cta-button">Let’s build something great together</a>
     </header>
 
     <main>
@@ -247,6 +264,7 @@
 
       <section id="projects">
         <h2>Projects</h2>
+        <p>Check out my projects below or contact me to collaborate.</p>
         <article class="project-card">
           <h3>Cinema Microservices Architecture</h3>
           <p>Distributed cinema catalog using Node.js microservices and an API Gateway for scalable operations.</p>
@@ -266,7 +284,7 @@
 
       <section id="contact">
         <h2>Contact</h2>
-        <p>Let's connect and build something great together. I’m open to remote backend & Web3 roles.</p>
+        <p>Let's connect and build something great together. I’m open to backend & Web3 opportunities — get in touch!</p>
         <p>
           <a href="mailto:abonturi@gmail.com" title="abonturi@gmail.com">Email</a> |
           <a href="https://www.linkedin.com/in/alexandrebonturinobrega" target="_blank">LinkedIn</a> |
