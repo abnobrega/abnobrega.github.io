@@ -17,7 +17,8 @@
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
-- 🛠️ **Help Desk System** — [GitHub](https://github.com/abnobrega/helpdesk-backend)
+- 🛠️ **Help Desk System / Backend** — [GitHub](https://github.com/abnobrega/helpdesk-backend)
+- 🛠️ **Help Desk System / Frontend** — [GitHub](https://github.com/abnobrega/helpdesk-frontend)
 - 💰 **Sobrando Dinheiro para Gerar Riqueza Course** — [View Course](https://go.hotmart.com/O28103354B)
 Outside of tech, I am also a financial mentor, helping people organize their finances and build wealth through my own financial education course:
 👉 [Access the Course](https://go.hotmart.com/O28103354B)
