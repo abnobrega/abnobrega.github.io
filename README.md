@@ -10,10 +10,16 @@
 - Financial mentor helping people build wealth through financial education.
 
 ## ⚙️ Skills
-- **Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
-- **Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
-- **Frontend:** React, HTML, CSS, JavaScript, TypeScript
-- **Databases:** Oracle, MySQL, PostgreSQL, MongoDB  
+- **Blockchain, Smart Contracts & Web3:** Ethereum (Solidity, Hardhat, Foundry, Viem), Solana (Rust), DApp development  
+- **Backend Development:** Node.js, NestJS, Express, RESTful API, Spring Boot, Spring MVC, JPA, Spring Security, JWT  
+- **Architecture & Patterns:** Microservices, API Gateway, CQRS, Factory Pattern, Distributed Systems, Clean Code, SOLID
+- **Languages:** Solidity, Rust, Java, Python
+- **Frontend Development:** React, Angular, HTML5, CSS3, JavaScript, TypeScript, Bootstrap
+- **Databases & ORM:** Oracle, MySQL, PostgreSQL, MongoDB, Hibernate, Sequelize
+- **Cloud & DevOps Tools:** AWS Lightsail, Docker, Git, Postman, Swagger 
+- **Testing:** Jest, Mocha
+- **Methodologies:** Agile (Scrum, Kanban), OOAD, OOP, Refactoring
+- **BI & Data Engineering:** Data Warehouse, Data Mart, ETL, OLAP, Snowflake, Star Schema
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
