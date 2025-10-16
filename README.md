@@ -13,7 +13,7 @@
 - **Blockchain:** Ethereum, Solidity, Hardhat, Foundry, Viem, Solana, Rust  
 - **Backend:** Java, Spring Boot, Node.js, Express, NestJS, CQRS, RESTful API  
 - **Frontend:** React, HTML, CSS, JavaScript, TypeScript
-- **Databases:** Oracle, MySQL, MongoDB  
+- **Databases:** Oracle, MySQL, PostgreSQL, MongoDB  
 
 ## 🚀 Projects
 - 🎬 **Cinema Microservices** — [GitHub](https://github.com/abnobrega/cinema-microservices-architecture)
